@@ -1,0 +1,25 @@
+.header{
+    min-height: 500px;
+    position:relative;
+    background: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+    /* background: linear-gradient(to top, red, blue); */
+}
+.text-size{
+    font-size: 30px;
+}
+.header-img{
+    width: 65%;
+}
+.header::after{
+    height: 300px;
+    content:' ';
+    position: absolute;
+    top: 15%;
+    width: 25%;
+    right: 8%;
+    background-image: url('../../Images/headerImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+    border: 2px solid #00dbd0;
+} 
