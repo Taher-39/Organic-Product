@@ -23,3 +23,10 @@
     z-index: -3;
     border: 2px solid #00dbd0;
 } 
+
+@media only screen and (max-width: 600px) {
+    .header::after{
+        background-image: none;
+        border: none;
+    }
+}
