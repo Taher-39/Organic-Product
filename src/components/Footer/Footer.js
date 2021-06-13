@@ -1,8 +1,5 @@
 import React from 'react';
 import navLogo from '../../Images/navLogo.png';
-import facebookIcon from '../../Images/footerImg.png';
-import linkedInIcon from '../../Images/linkedin.png';
-import instagramIcon from '../../Images/instagram.png';
 import './Footer.css';
 const Footer = () => {
     return (
@@ -11,7 +8,7 @@ const Footer = () => {
                 <div className="row">
                 <div className="col-md-4 py-5">
                         <div className='d-flex justify-content-center'>
-                        <div><img className='navImg' style={{ width: '50px' }} src={navLogo} alt="" /></div>
+                        <div><img className='navImg' style={{ width: '50px', margin: '0 0'}} src={navLogo} alt="" /></div>
                             <h3 className='brand-name'>Organic</h3>
                         </div>
                         <p className='footer-border text-light py-3'>
