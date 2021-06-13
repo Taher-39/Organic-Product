@@ -4,7 +4,7 @@ import doubleComma from '../../Images/doubleComma.png';
 import './NewsLatter.css'
 const NewsLatter = () => {
     return (
-        <section style={{minHeight: '600px'}}>
+        <section className='newsletter-feedback' style={{minHeight: '600px'}}>
             <article>
                 <div className="text-center">
                     <div className='p-5'>

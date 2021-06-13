@@ -26,5 +26,11 @@ input[type="submit"] {
     color: white;
     border: 0;
     border-radius: 15px;
-    /* -webkit-appearance: none; */
+}
+.newsletter-feedback{
+    background-image: url('../../Images/SideFlower\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: top 400px left 0px;
+    /* background-position-y: center; */
 }

@@ -15,7 +15,7 @@ const Header = () => {
                     </p>
                     <button className="btn btn-color text-light">Explore Now</button>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-md-block">
                     <img src={headerFlower} alt="" className='img-fluid header-img' />
                 </div>
             </div>

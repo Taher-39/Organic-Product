@@ -33,7 +33,7 @@ const OrganicPresenter = () => {
         }
     ]
     return (
-        <section className='organic-presenter'>
+        <section className='organic-presenter mt-5'>
             <div className="text-center">
                 <h2 className='py-3 text-color'>Proudly presented by</h2>
                 <p className='text-color'>

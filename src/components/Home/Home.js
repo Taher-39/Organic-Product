@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import WelcomeNature from '../WelcomeNature/WelcomeNature';
 import OrganicPresenter from '../OrganicPresenter/OrganicPresenter';
 import NewsLatter from '../NewsLatter/NewsLatter';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <WelcomeNature></WelcomeNature>
             <OrganicPresenter></OrganicPresenter>
             <NewsLatter></NewsLatter>
+            <Blog></Blog>
         </div>
     );
 };
