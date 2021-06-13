@@ -44,7 +44,12 @@ const OrganicPresenter = () => {
             <div className="container d-flex justify-content-center">
                 <div className="row pt-5">
                     {
-                        presenterData.map(presenterCard => <img src={presenterCard.presenterDataImg} alt="" style={{ width: '150px', margin: '20px'}} />)
+                        presenterData.map(presenterCard =>
+                            <section className='col-md-2'>
+                                <img src={presenterCard.presenterDataImg} alt="" style={{ width: '150px', margin: '30px', marginLeft: '100px' }} />
+                            </section>
+                             
+                             )
                     }
                 </div>
             </div>

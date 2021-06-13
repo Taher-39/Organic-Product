@@ -1,0 +1,30 @@
+.feedback{
+    font-size: 1.2rem;
+    line-height: 8vh;
+}
+.feedback-parson{
+    border-radius: 70%;
+}
+.news-letter{
+    margin-top: 100px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 35px;
+    padding-right: 50px;
+    outline-color: rgb(84, 105, 106);
+    border: 0;
+    border: 1px solid lightblue;
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    margin-top: -5px;
+    height: 35px;
+    width: 100px;
+    background-color: #00dbd0;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    /* -webkit-appearance: none; */
+}

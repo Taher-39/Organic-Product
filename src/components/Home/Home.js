@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
 import WelcomeNature from '../WelcomeNature/WelcomeNature';
 import OrganicPresenter from '../OrganicPresenter/OrganicPresenter';
+import NewsLatter from '../NewsLatter/NewsLatter';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Header></Header>
             <WelcomeNature></WelcomeNature>
             <OrganicPresenter></OrganicPresenter>
+            <NewsLatter></NewsLatter>
         </div>
     );
 };

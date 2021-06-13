@@ -39,7 +39,11 @@ const WelcomeNature = () => {
             <div className="container d-flex justify-content-center">
                 <div className="row pt-5">
                     {
-                        welcomeData.map(welcomeCard => <img src={welcomeCard.foodCardImg} alt="" style={{ width: '200px', margin: '5px 20px' }} />)
+                        welcomeData.map(welcomeCard =>
+                            <section className='col-md-3 text-center'>
+                                <img src={welcomeCard.foodCardImg} alt="" style={{ width: '200px', margin: '10px 20px' }} />
+                            </section>
+                             )
                     }
                 </div>
             </div>
