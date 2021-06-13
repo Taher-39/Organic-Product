@@ -1,3 +1,7 @@
 .read-more-btn{
     border-bottom: 2px solid #00dbd0;
 }
+.blog-img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

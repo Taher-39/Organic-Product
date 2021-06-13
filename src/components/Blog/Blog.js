@@ -7,17 +7,17 @@ import './Blog.css'
 const Blog = () => {
     const blogData = [
         {
-            id: 1,
+            id: 'One',
             blogImg: eucalyptusEssential,
 
         },
         {
-            id: 2,
+            id: 'Two',
             blogImg: pottedPlant,
 
         },
         {
-            id: 3,
+            id: 'Three',
             blogImg: containerProduct,
 
         }
@@ -38,9 +38,9 @@ const Blog = () => {
                         blogData.map(blogCard =>
                             <section className="col-md-4 d-flex justify-content-center my-4">
                                     <div>
-                                        <img style={{ height: '300px', width: '270px'}} src={blogCard.blogImg} alt="" />
+                                        <img className='blog-img' style={{ height: '300px', width: '270px'}} src={blogCard.blogImg} alt="" />
                                         <div className="text-center">
-                                            <h2 className='py-3' style={{ color: '#00dbd0'}}>Blog Post One</h2>
+                                        <h2 className='py-3' style={{ color: '#00dbd0' }}>Blog Post {blogCard.id}</h2>
                                             <p className='text-color'>
                                                 Lorem ipsum dolor sit amet, <br />
                                                 consectetur adipiscing elit, sed <br />

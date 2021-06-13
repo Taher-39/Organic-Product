@@ -5,6 +5,7 @@ import WelcomeNature from '../WelcomeNature/WelcomeNature';
 import OrganicPresenter from '../OrganicPresenter/OrganicPresenter';
 import NewsLatter from '../NewsLatter/NewsLatter';
 import Blog from '../Blog/Blog';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <OrganicPresenter></OrganicPresenter>
             <NewsLatter></NewsLatter>
             <Blog></Blog>
+            <Footer></Footer>
         </div>
     );
 };
